@@ -33,4 +33,3 @@ while count < 5:
 if not flag:
     print("Bad luck")
 
-## HELLO WORLD
