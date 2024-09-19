@@ -20,10 +20,11 @@ def winner(choice, computerchoice):
     else:
         return "Computer Wins! We are all doomed"
     
-def play():
+def main():
     choice = player()
     computerchoice = computer()
     result = winner(choice, computerchoice)
     print(result)
 
-play()
+if __name__ == "__main__":
+    main()
