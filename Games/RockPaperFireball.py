@@ -28,7 +28,7 @@ while player == False:
         else:
             print("You Win!", player, "Shanks", player)
     else:
-        print("THat play is no good")
+        print("That play is no good")
     
     player = False
     computer = choice[randint(0,2)]
