@@ -29,5 +29,10 @@ def image_to_rgb(image_path):
 image_path = r'C:\Users\kavin\Downloads\code\Small-python-Proj-s\ASCIIart\bluecar.jpg'
 rgb_array = image_to_rgb(image_path)
 
-for row in rgb_array:
-    print(row)
+for x in len(rgb_array):
+    for y in len(rgb_array[x]):
+        pixel = rgb_array[x][y]
+        #Now lets find the brightness of each pixel
+        brightness = (R + G + B) / 3
+    print(brightness)
+
