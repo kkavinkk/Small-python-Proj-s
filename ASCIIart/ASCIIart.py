@@ -27,7 +27,7 @@ def image_to_rgb(image_path):
     return rgb_array
 
 image_path = r'C:\Users\kavin\Downloads\code\Small-python-Proj-s\ASCIIart\bluecar.jpg'
-rgb_array(image_path)
+rgb_array = image_to_rgb(image_path)
 
 for row in rgb_array:
     print(row)
