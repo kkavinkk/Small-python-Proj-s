@@ -1,8 +1,8 @@
 """
 WELCOME
-
-
-
+This is a program which allows you to find the reading level of any text.
+The code uses the Coleman-Liau index formula to calculate the reading level.
+:)
 """
 
 
